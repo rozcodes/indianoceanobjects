@@ -1,0 +1,428 @@
+body {
+	width: 100%;
+	background: url("https://rozcodes.github.io/garciadaorta/chinaroot.jpg");
+	background-repeat: repeat;
+	margin-bottom: -20px;
+	margin-left: -10px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+ 
+
+/*HEADER AND NAV*/
+#mainnav {
+	padding: 20px 0 20px 0;
+	float: left;
+	width: 100%;
+}
+
+#mainnav h2 {
+	font-weight: 600;
+	color: #ff7b56;
+	font-size: 36px;
+	margin: 0 0 0 7%;  
+	display: inline;
+	background-image: linear-gradient(180deg, transparent 0, #fff 0);
+	background-repeat: no-repeat;
+	-webkit-box-decoration-break: clone;
+	background-size: 100% 1em;
+	background-position-x: 0px;
+	background-position-y: center;
+	line-height: 1.2;
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 800px;
+
+} 
+
+#abt, #daorta, #diseasebucket {
+	font-size: 20px;
+  	font-weight: 400;
+  	color: black;
+  	background-color: #fff;
+  	display: inline-block;
+  	margin-left: 3%;
+  	clear: both;
+	display: inline;
+	background-repeat: no-repeat;
+	-webkit-box-decoration-break: clone;
+ 	background-position-x: 0px;
+	background-position-y: center;
+ 	padding: 5px 15px;
+	max-width: 695px;
+	cursor: pointer; 
+	transition: background-color 0.6s ease;
+	transition: color 0.6s ease;
+	transition: font-style 0.6s ease;
+
+}
+
+
+#daorta:hover, #abt:hover, #diseasebucket:hover {
+		font-style: italic;
+		font-weight: 800;
+}
+
+#abt {
+	margin-left: 20%;
+}
+
+#medica {
+	display: inline-block;
+  	margin: 0 0 0 40px;
+  	clear: both;
+	display: inline;
+	background-repeat: no-repeat;
+	-webkit-box-decoration-break: clone;
+ 	background-position-x: 0px;
+	background-position-y: center;
+ 	padding: 5px 15px;
+	max-width: 695px;
+	background-color: white;
+	font-size: 20px;
+  	font-style: italic;
+  	font-weight: 800;
+  	color: black;
+}
+
+
+
+/*CONTENT*/
+
+section {
+	color: white;
+ 	background: #292929;
+/*  	background-color: #485933; */
+	padding: 50px 20px;
+	margin: 0 10% 0 7%;
+	float: left;
+ 	min-width: 990px;
+	height: 90%;
+	box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.9);
+
+}
+
+section h1 {
+	font-family: 'IM Fell Double Pica', serif;
+	font-size: 30px;
+	margin: -5px 0 -5px 50px;
+ 	float: left;
+
+}
+
+
+.main {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.8;
+	margin: 48px 10px 40px 100px;
+	margin-left: 10%;
+ 	width: 80%;
+	max-width: 1000px;
+	text-align: justify;
+
+	 
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+/*MEDICINE TABS */
+
+
+ 
+.navtabs {
+	float: left;
+	color: black;
+	width: 100%;
+	background: red;
+}
+
+.tabsul {
+	width: 80%;
+	min-width: 780px;
+	max-width: 1980px;
+	cursor: pointer;
+ 	list-style: none;
+	display: inline-block;
+	margin-left: 7%;
+  
+}
+
+.tab {
+	float: left;
+	padding: 10px 30px;
+	background-color: #FFF2CA;
+	text-align: center;
+	color: black;
+	margin-bottom: -6px;
+	box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.60);
+	z-index: 0;
+	position: relative;
+
+}
+
+.tab:hover {
+	transition: background-color 0.6s ease;
+	background: #F4D91D;
+}
+
+
+h3 {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.active {
+	transition: background-color 0.6s ease;
+	background: #F4D91D;
+	display: show;
+}
+
+
+/* MEDICINE CONTENT */
+
+.medicinebox {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+	clear: both;
+	height: 550px;
+	width: 82%;
+	min-width: 820px;
+	max-width: 1980px;
+	background: #f7f1ed;
+	padding: 20px 20px 20px 40px;
+	list-style: none;
+	font-size: 18px;
+	margin-bottom: 100px;
+	margin-left: 7%;
+	margin-right: 5%;
+	border-top: 5px solid #F4D91D;
+	box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.60);
+	z-index: 1;
+	position: relative;
+}
+
+.description1 {
+  	width: 29%;
+ 	height: 400px;
+ 	color: black;
+ 	font-size: 16px;
+ 	line-height: 2;
+ 	font-weight: 400;
+ 	float: left;
+ 	margin-left: 1%;
+ 	margin-top: 2%;
+ }
+
+.description2 {
+  	width: 29%;
+ 	margin-left: 5%;
+ 	height: 400px;
+  	color: black;
+ 	font-size: 16px;
+ 	line-height: 2;
+ 	font-weight: 400;
+	float: left;
+ 	margin-top: 2%;
+ }
+
+.description3 {
+  	width: 29%;
+ 	margin-left: 5%;
+ 	height: 400px;
+  	color: black;
+ 	font-size: 16px;
+ 	line-height: 2;
+ 	font-weight: 400;
+	float: left;
+ 	margin-top: 2%;
+}
+
+
+#aloe1 {
+	float: right;
+	width: 249px;
+	height: 248px;
+	margin-top: 30px;
+	margin-right: 4%;
+	box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.60);
+}
+
+#ginger1, #chinaroot1, #cloves2 {
+	width: 249px;
+	height: 346px;
+	float: right;
+	margin-top: 4px;
+	box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.60);
+
+}
+
+
+
+.caption {
+	font-size: 16px;
+	line-height: .8;
+	margin-left: 300px;
+	color: black;
+	float: left;
+}
+
+
+.politics {
+	margin-bottom: -18.5%;
+}
+
+.hide {
+	display: none;
+}
+
+.red {
+	color: #F5443C;
+}
+
+.ylw {
+	color: #f4d91d;
+}
+
+/* SLIDESHOW */
+
+/*dots */
+
+
+.area {
+	background: #f7f1ed;
+	height: 50px;
+	width: 90%;
+	float: left;
+	margin-bottom: 30px;
+	margin-left: 7%;
+	text-align: center;
+		box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.60);
+
+}
+
+.dots {
+	margin-top: 20px;
+}
+
+.dot {
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	display: inline-block;
+	border-radius: 10px;
+	transition: background-color 0.6s ease;
+	clear: both;	
+	text-align: center;
+	z-index: 49;
+	position: relative;
+
+}
+
+.green {	
+	background-color: #ADDB7D;
+}
+
+.activedot, .dot:hover {
+	background-color: #292929;
+}
+
+/*images */
+.hide {
+	display: none;
+}
+
+.illustrations {
+	margin-top: -20px;
+}
+
+.slideshow {
+	background: #f7f1ed;
+	height: 400px;
+	width: 90%;
+	float: left;
+	margin-bottom:-30px;
+	margin-left: 7%;
+	padding-top: 10px;
+	text-align: center;
+ 	border-top: 8px solid #ADDB7D;
+}
+
+.backDrop{
+  background-color: rgba(0,0,0,0.90);
+  z-index: 60;
+  position: relative;
+}
+
+.clear{
+  clear: both;
+}
+
+
+
+.ulitems {
+	position: relative;
+	list-style: none;
+}
+
+.thumb {
+	cursor: pointer; 
+	width: 24%;
+	max-height: 350px;
+	float: left;
+	margin-right: 6%;	
+	margin-left: 3%; 
+	position: relative;
+	z-index: 55;
+	transition: opacity 0.6s ease
+}
+
+
+.thumb:hover{
+	opacity: 0.4;
+}
+
+#aloe {
+	margin-left: 2%;
+	margin-top: 6%;
+
+}
+
+
+
+/*LIGHTBOX*/
+
+.hidebox {
+	display:none;
+}
+
+
+.lightbox {
+	position: relative;
+	z-index: 900;
+	width: 50%;
+	height: 50%;
+	border: 40px solid black;
+}
+
+ 
+/*/*FOOTER*/
+
+footer span {
+	color: black;
+	float: left;
+	padding: 15px 25px 15px 25px;
+	margin-left: 40%;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	background: white;
+	font-family: 'IM Fell Double Pica', serif;
+	font-weight: 800;
+	text-align: center;
+ }
+
